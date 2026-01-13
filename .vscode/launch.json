@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name" : "CWEL",
+            "type" : "cppdbg",
+            "program" : "${workspaceFolder}/console_test.exe",
+            "request" : "launch",
+            "cwd": "${workspaceFolder}/src",
+            "miDebuggerPath": "C:/ProgramData/mingw64/mingw64/bin/gdb.exe",
+            "preLaunchTask" : "opierdol mi kolbe"
+        }
+    ]
+        
+}
